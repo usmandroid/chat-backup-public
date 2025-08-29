@@ -1,0 +1,14 @@
+ChatGPT Backup is a simple browser extension that lets you save your ChatGPT conversations as Markdown or HTML files with a single click. 
+
+Features:
+- Save entire conversations in Markdown or HTML format
+- One-click download from the ChatGPT interface
+- Works on both Chrome and Firefox
+- No data is sent outside your browser; everything is saved locally
+
+Why install?
+- Keep a personal archive of your AI chats
+- Share formatted conversations easily
+- Backup important information for future reference
+
+This extension is open source and privacy-friendly. No account or signup required.
