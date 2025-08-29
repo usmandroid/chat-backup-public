@@ -1,7 +1,10 @@
 {
   "manifest_version": 3,
+  "manifest_version": 3,
   "name": "ChatGPT Backup",
   "version": "1.0",
+  "description": "Save ChatGPT conversations as Markdown or HTML",
+  "icons": {
   "description": "Save ChatGPT conversations as Markdown or HTML",
   "icons": {
     "16": "icons/icon16.png",
@@ -24,6 +27,10 @@
   },
   "content_scripts": [
     {
+      "matches": [
+        "https://chat.openai.com/*",
+        "https://chatgpt.com/*"
+      ],
       "matches": [
         "https://chat.openai.com/*",
         "https://chatgpt.com/*"
