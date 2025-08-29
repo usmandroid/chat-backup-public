@@ -37,4 +37,45 @@ Notes
 
 ---
 
+
+---
+
+Chrome Extension
+================
+
+Installation
+------------
+1. Open Google Chrome.
+2. Go to `chrome://extensions/` in the address bar.
+3. Enable "Developer mode" (toggle in the top right).
+4. Click on "Load unpacked".
+5. Select the folder where this extension's files are located (the folder containing manifest.json).
+6. The extension icon should appear in the Chrome toolbar.
+
+Usage
+-----
+1. Open https://chat.openai.com and log in.
+2. Click the extension icon in the toolbar.
+3. You will see two buttons:
+   - "Save as Markdown": saves the current conversation in markdown format.
+   - "Save as HTML": saves the current conversation as an HTML file that you can open in a browser.
+4. Click the desired button.
+5. The file will be downloaded automatically.
+6. If you see any error messages in the popup, check the browser console (Ctrl+Shift+J) for details.
+
+Troubleshooting
+---------------
+- Make sure you are on the ChatGPT website (`https://chat.openai.com/`) when clicking the buttons.
+- If downloads don’t start, try reloading the ChatGPT tab after installing the extension.
+- Ensure the extension’s content script is injected by checking console logs in the ChatGPT tab (`Ctrl+Shift+J`).
+- If you encounter permission or messaging errors, reload the extension and the ChatGPT page.
+
+Notes
+-----
+- This extension is a simple utility for your personal use.
+- It does not send any data outside your browser.
+- The downloaded files are saved locally.
+
+---
+
 Thank you for using ChatGPT Backup!

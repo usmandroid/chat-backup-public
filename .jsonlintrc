@@ -1,0 +1,12 @@
+{
+  "json/sort-package-json": "error",
+  "json/*": ["error", "allowDuplicate"],
+  "overrides": [
+    {
+      "files": ["*.json"],
+      "rules": {
+        "json/*": "error"
+      }
+    }
+  ]
+}
