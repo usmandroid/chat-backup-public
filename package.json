@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "format": "prettier --write .",
+    "lint:json": "jsonlint '**/*.json'"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0",
+    "jsonlint": "^1.6.3"
+  }
+}

@@ -1,16 +1,20 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "ChatGPT Backup",
   "version": "1.0",
-    "icons": {
+  "description": "Save ChatGPT conversations as Markdown or HTML",
+  "icons": {
     "16": "icons/icon16.png",
     "32": "icons/icon32.png",
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
-  "description": "Save ChatGPT conversations as Markdown or HTML",
-  "permissions": ["tabs", "activeTab"],
-  "browser_action": {
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": [
+    "https://chat.openai.com/*",
+    "https://chatgpt.com/*"
+  ],
+  "action": {
     "default_popup": "popup.html",
     "default_icon": {
       "16": "icons/icon16.png",
@@ -20,7 +24,10 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://chatgpt.com/*"],
+      "matches": [
+        "https://chat.openai.com/*",
+        "https://chatgpt.com/*"
+      ],
       "js": ["content.js"]
     }
   ]
