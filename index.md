@@ -1,3 +1,9 @@
+---
+title: ChatGPT Backup Extension
+---
+
+<meta name="google-site-verification" content="mQ9PkPzIueueX29HDzbTO-ahGBu87qsXloI7GRWWkcE" />
+
 # ChatGPT Backup Extension
 
 Save your ChatGPT conversations as Markdown or HTML.
